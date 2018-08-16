@@ -106,9 +106,8 @@ main {
 	max-width: 1440px;
 	margin: 0 auto;
 }
+
 /* ----- Slider ------ */
-
-
 .container {
 	background-color: rgba(218, 219, 210, 0.637);
 	width: 1200px;
@@ -138,12 +137,10 @@ main {
 
 .slider-controls label {
 	position: relative;
-
 	display: inline-block;
 	width: 18px;
 	height: 18px;
 	padding: 8px;
-
 	border-radius: 50%;
 	cursor: pointer;
 }
@@ -234,7 +231,8 @@ main {
 .slider__item p {
 	max-width: 430px;
   margin: 0;
-  margin-bottom: 38px;
+	margin-bottom: 38px;
+	line-height: 24px;
 }
 
 .button {
@@ -265,7 +263,73 @@ main {
   box-shadow: 0 3px rgba(0, 0, 0, 0.1) inset;
 }
 
+/* ----- Services ------ */
+.services {
+	background-color: #dbdfc5;
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+	padding: 80px 20px 0;
+	box-sizing: border-box;
+}
 
+.services__list {
+	display: flex;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0;
+}
 
+.services__item {
+	background-color: #cccccc;
+	width: 300px;
+	height: 347px;
+	/* margin: 0 auto; */
+}
 
+.services__item-1 {
+	background-image: url("/img/advantages/illustration-1.png");
+	background-repeat: no-repeat;
+}
+
+.services__item-2 {
+	background-image: url("/img/advantages/illustration-2.png");
+	background-repeat: no-repeat;
+}
+
+.services__item-3 {
+	background-image: url("/img/advantages/illustration-3.png");background-repeat: no-repeat;
+}
+
+.services__item h3 {
+	/* background-color: #d7373b; */
+	margin: 170px 0 0;
+
+	text-transform: uppercase;
+	font-size: 24px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.services__item p {
+	/* background-color: #e74246; */
+	margin: 21px 0 0;
+}
+.services__item button {
+	width: 160px;
+	height: 50px;
+
+	margin: 39px 0 0;
+
+	font-size: 16px;
+	line-height: 18px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	text-decoration: none;
+
+	background-color: #FB565A;
+	border-radius: 3px;
+	border: none;
+}
 
