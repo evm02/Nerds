@@ -31,12 +31,11 @@ body {
 	height: 100%;
 }
 
-
 /* ===== HEADER ===== */
 .main-header {
 	background-color: #eeeeee;
 	max-width: 1440px;
-	min-height: 115px;
+	/* min-height: 115px; */
 	margin: 0 auto;
 	display: flex;
 	/* position: relative; */
@@ -45,10 +44,12 @@ body {
 /* ----- Main-navigation ----- */
 .main-nav-container {
 	background-color: rgba(218, 219, 210, 0.637);
-	min-width: 1200px;
-	min-height: 115px;
+	width: 1200px;
+	height: 115px;
 	margin: 0 auto;
 	position: relative;
+	padding: 0 20px;
+	box-sizing: border-box;
 }
 
 .main-nav {
@@ -59,9 +60,6 @@ body {
 	align-items: flex-end;
 }
 
-.main-header-logo {
-	padding-left: 20px; 
-}
 
 .main-nav__list {
 	margin: 0 0 0 154px;
@@ -108,7 +106,7 @@ main {
 }
 
 /* ===== Slider ===== */
-.container {
+.slider-container {
 	background-color: rgba(218, 219, 210, 0.637);
 	width: 1200px;
 	margin: 0 auto;
@@ -484,13 +482,70 @@ main {
 	margin: 25px 0 0;
 }
 
-/* ===== Client ===== */
+/* ===== Clients ===== */
+.clients {
+	background-color: #c0b7a5dc;
+	width: 1200px;
+	height: 184px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.clients::after {
+	content: '';
+	width: 1160px;
+	height: 2px;
+	top: 0;
+	background-color: #000000;
+	position: absolute; 
+}
+
+.clients::before {
+	content: '';
+	width: 1160px;
+	height: 2px;
+	bottom: 0;
+	background-color: #000000;
+	position: absolute; 
+}
+
+.clients___list {
+	padding: 45px 45px 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+}
+
+.client__items::after {
+	background-color: #000000;
+	content: '';
+	width: 2px;
+	height: 52px;
+	position: absolute; 
+	margin: 5px 0 0 47px;
+}
+
+.client__items:last-child::after {
+	display: none;
+}
+
+.clients___list img {
+	opacity: 0.2;
+}
 
 
-
-
-
-
+/* ===== Map ===== */
+.map {
+	border-color: #3de22e;
+	width: 1200px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
 
 
 
