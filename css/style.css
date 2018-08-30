@@ -616,11 +616,11 @@ main {
 	padding: 0 20px;
 	box-sizing: border-box;
 	display: flex;
-	justify-content: space-between;
+	/* justify-content: space-between; */
 }
 
 .social-battons {
-	margin: 69px 0 0;
+	margin: 70px 0 0;
 	display: flex; 
 }
 
@@ -634,4 +634,22 @@ main {
 	align-items: center;
 	justify-content: center;
 }
+
+.main-footer__text {
+	margin: 75px 0 0 140px;
+}
+
+.main-footer__text b {
+	font-size: 36px;
+	font-weight: bold;
+	line-height: 40px;
+}
+
+.main-footer__text p {
+	margin-top: 10px;
+	line-height: 22px;
+	color: #444444;
+}
+
+
 
